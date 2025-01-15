@@ -1,0 +1,86 @@
+/*Navbar Mobile*/
+
+nav.NavBar ul {
+    flex-direction: row;
+   }
+   
+   
+   nav.NavBar li {
+       flex: 1;
+   }
+   
+   .NavBar ul{
+       list-style-type: None;
+       background-color: #98dbff;
+       padding: 0px;
+       margin: 0px;
+       overflow: hidden; 
+   }
+   
+   .NavBar a{
+       color: rgb(0, 0, 0);
+       text-decoration: none;
+       padding: 10px;
+       display: block;
+       text-align: center;
+   }
+   
+   
+   .NavBar li{
+       float: middle;
+   }
+   
+
+header img
+{
+    margin-top: 40px;
+}
+
+/*Slider Mobile*/
+
+.OpenSpaceSlider
+{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+}
+
+.OpenSpaceSlider img
+{
+    width: 425px;
+    height: auto;
+}
+
+.WMSTitle
+{
+    background-color: #98dbff;
+}
+
+.WelcomeMessageSection
+{
+    background-color: #98dbff;
+}
+
+.OwnerInfoSection
+{
+    justify-content: center;
+    justify-items: center;
+}
+
+.OwnerText
+{
+    background-color: #98dbff;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+}

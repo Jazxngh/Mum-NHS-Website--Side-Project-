@@ -1,0 +1,171 @@
+body
+{
+    background-color: white;
+}
+
+h3
+{
+    font-family: 'Open Sans', sans-serif;
+}
+/*Header*/ 
+
+header
+{
+  margin-bottom: 25px; /*Just gives it space from bottom of header section including navbar, to seperate img slider*/
+}
+
+header img
+{
+    padding: 5px;
+    margin: 0px;
+}
+
+.OpenSpaceHeaderContainer
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeaderDetailSection
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Navigation Bar*/
+
+.NavBar ul{
+    list-style-type: None;
+    background-color: #98dbff;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.NavBar a{
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.NavBar a:hover{
+    background-color: #5fc5fd;
+    transition: 0.45s ease-in;
+}
+
+.NavBar li{
+    float: left;
+}
+
+
+/*Index page slider*/
+
+.SliderQuote
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center ; /*line 65 to 67 is to center the the div space holding the text*/
+    width: 100%;
+    padding: 15px;
+}
+
+
+.OpenSpaceImgSliderSection
+{
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.OpenSpaceSlider
+{
+    width: 75%;
+    display: flex;
+    flex-direction: row; /*Important to add this as mobile is column otherwise it'll apply to desktop too*/
+    animation: slide 16s infinite;
+}
+
+.OpenSpaceSlider img
+{
+   width: 68%;
+}
+
+@keyframes slide{ 
+    0%{
+    transform: translateX();
+}
+25%{
+    transform: translateX(-100%);
+}
+50%{
+    transform: translateX(-100%);
+}
+55%{
+    transform: translateX(-200%);
+}
+75%{
+    transform: translateX(-200%);
+}
+}
+
+.WMSTitle, h1
+{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+    color: #42bdff;
+    background-color: white;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.WelcomeMessageSection
+{
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+
+.OwnerInfoSectionBackgroundWrapper /*another div to wrap around all*/
+{
+    background-color: #98dbff; /* Set background color across the page */
+    width: 100%; /* Span across the entire page width */
+    padding: 25px 0; /* Add some vertical padding to create space around the content */
+}
+
+.OwnerInfoSection
+{
+    background-color: #afe0fa;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 20px;
+    width: 50%; /*This is to manipulate the div space size*/
+    margin-left: 25%; /*Doing 25% because its half of width which is 50%*/
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for modern look, contrasts this div background colour with the background colour div wrapper*/
+}
+
+.OwnerText
+{
+    background-color: white;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+}
