@@ -1,4 +1,5 @@
-/*Navbar Mobile*/
+/*Navbar Mobile
+======================================================================================== */
 
 nav.NavBar ul {
     flex-direction: row;
@@ -36,7 +37,7 @@ header img
     margin-top: 40px;
 }
 
-/*Slider Mobile*/
+/*Slider Mobile ===================================================================================*/
 
 .OpenSpaceSlider
 {
