@@ -1,6 +1,7 @@
 body
 {
     background-color: white;
+    cursor:url ('Images/CursorBGFree.png'), auto;
 }
 
 h3
@@ -147,12 +148,22 @@ header img
 .WelcomeMessageSection
 {
     display: flex;
-    justify-content: left;
-    justify-items: left;
-    font-family: 'Open Sans', sans-serif;
-    width: 100%;
-    font-size: 16px;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 25px;
+    width: 100%;
+
+    animation: fade linear;
+    animation-timeline:view();
+}
+
+.WMSText
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 7.5px;
+    justify-content: center;
+    align-items: center;
 
     animation: fade linear;
     animation-timeline:view();
@@ -263,4 +274,36 @@ animation: fade linear; and animation-timeline:view(); under certain class will 
     justify-content: center;
     align-items: center;
     margin-right: 250px;
+}
+
+.MoreInfoBackgroundWrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #98dbff; 
+    width: 100%; 
+    padding: 15px; 
+    margin-bottom: 50px;
+
+    animation: fade;
+    animation-timeline:view();
+}
+
+.MoreInfoList ul li
+{
+    width: 100%;
+    display: inline;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid black;
+    margin-right: 15px;
+    background-color: #fff;
+}
+
+.MoreInfoList li:hover
+{
+    background-color:#5fc5fd;
+    color: white;
+    transition: 0.3s ease-in-out;
 }
