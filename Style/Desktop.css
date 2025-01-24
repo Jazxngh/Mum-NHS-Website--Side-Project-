@@ -43,6 +43,7 @@ header img
 
 /*Navigation Bar*/
 
+
 .NavBar ul{
     list-style-type: None;
     background-color: #98dbff;
@@ -227,5 +228,39 @@ footer
     }
 }
 
+
 /* Then writing 
 animation: fade linear; and animation-timeline:view(); under certain class will add effect keyframe fade effect*/
+
+.LmamHeading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.QualificationSection
+{
+    display: flex;
+    justify-content: space-between;
+
+    animation: fade ease-in;
+    animation-timeline:view();
+    
+}
+
+.BACPQQ
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.NHSQQ
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 250px;
+}
