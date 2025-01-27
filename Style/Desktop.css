@@ -1,7 +1,6 @@
 body
 {
     background-color: white;
-    cursor:url ('Images/CursorBGFree.png'), auto;
 }
 
 h3
@@ -290,6 +289,11 @@ animation: fade linear; and animation-timeline:view(); under certain class will 
     animation-timeline:view();
 }
 
+.MoreInfoList ul
+{
+    padding: 0;
+}
+
 .MoreInfoList ul li
 {
     width: 100%;
@@ -297,8 +301,8 @@ animation: fade linear; and animation-timeline:view(); under certain class will 
     padding: 10px;
     font-family: 'Open Sans', sans-serif;
     border: 1px solid black;
-    margin-right: 15px;
     background-color: #fff;
+    margin-right:5px;
 }
 
 .MoreInfoList li:hover
@@ -306,4 +310,6 @@ animation: fade linear; and animation-timeline:view(); under certain class will 
     background-color:#5fc5fd;
     color: white;
     transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
+
